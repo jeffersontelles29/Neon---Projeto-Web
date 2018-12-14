@@ -1,0 +1,10 @@
+@import 'variables';
+// ================= Button:
+.btn-custom {
+  text-transform: uppercase;
+  background: $color-custom !important;
+  color: $color-light;
+  border-radius: 0; 
+  padding: .4rem 1.5rem;
+  box-shadow: 1px 1px 2px $color-dark;
+}

@@ -1,0 +1,27 @@
+@import 'variables';
+
+// =============== Navbar Custom:
+.navbar {
+  &-brand {
+    font-family: $font-custom;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  // Icon
+  &-icon {
+    color: $color-custom;
+    border: 1px solid $color-custom;
+    padding: .4rem;
+    margin-right: .4rem;
+  }
+
+  &-nav {
+    a {
+      color: $color-light !important;
+    }
+    .active {
+      color: $color-custom !important;
+    }
+  }
+}
