@@ -45,6 +45,7 @@ img {
     padding: .4rem;
     margin-right: .4rem; }
   .navbar-nav a {
+    font-weight: 400;
     color: #FFF !important; }
   .navbar-nav .active {
     color: #E74C3C !important; }
@@ -67,9 +68,9 @@ img {
 
 .sobre {
   padding: 7rem 0; }
-  .sobre-img img {
-    width: 300px;
-    height: 300px;
+  .sobre-img {
+    width: 400px;
+    height: 400px;
     border-radius: 100%;
     border: 4px dashed #E74C3C;
     padding: 1rem;
@@ -85,6 +86,27 @@ img {
     margin-right: 1rem; }
 
 .servicos {
-  padding: 7rem 0; }
+  padding: 7rem 0;
+  background: #333;
+  color: #FFF; }
+  .servicos .intro h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .servicos .intro h2::after {
+    display: block;
+    content: '';
+    width: 6rem;
+    height: 2px;
+    background: #E74C3C;
+    margin: 4rem auto; }
   .servicos-boxes {
-    margin-top: 10rem; }
+    margin-top: 10rem;
+    text-align: center; }
+  .servicos .fas {
+    font-size: 3rem;
+    color: #E74C3C;
+    margin-bottom: 1rem; }
