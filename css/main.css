@@ -1,2 +1,8 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background: #333; }
+  font-family: 'Open Sans', sans-serif; }
+
+.font-base {
+  font-family: 'Orbitron', sans-serif; }
