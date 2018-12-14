@@ -8,3 +8,22 @@
   padding: .4rem 1.5rem;
   box-shadow: 1px 1px 2px $color-dark;
 }
+
+// ================= Intro:
+.intro {
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h2::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 6rem;
+    height: 2px;
+    background: $color-custom;
+    margin-top: 1rem;
+  }
+}
+

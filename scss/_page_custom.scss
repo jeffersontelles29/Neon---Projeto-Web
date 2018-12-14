@@ -11,7 +11,6 @@
   color: $color-light;
 
   h1 {
-    // font-family: $font-custom;
     font-size: 4.2rem;
     font-weight: 700;
   }
@@ -25,21 +24,6 @@
 // ============= Sobre:
 .sobre {
   padding: 7rem 0;
-
-  h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  h2::after {
-    display: block;
-    content: '';
-    position: absolute;
-    width: 6rem;
-    height: 2px;
-    background: $color-custom;
-    margin-top: 1rem;
-  }
 
   &-img img {
     width: 300px;
