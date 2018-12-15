@@ -11,7 +11,8 @@
   color: $color-light;
 
   h1 {
-    font-size: 4.2rem;
+    font-family: $font-custom;
+    font-size: 5rem;
     font-weight: 700;
   }
 
@@ -21,12 +22,9 @@
   }
 }
 
-
-
-
 // ====================================== Section Sobre:
 .sobre {
-  padding: 7rem 0;
+  padding: 10rem 0;
 
   // Create Rotate
   .circle {
@@ -59,7 +57,6 @@
     to{-webkit-transform:rotate(360deg);}
   }
 
-
   // Heading Custom
   .heading {
     font-size: 1.7rem;
@@ -78,12 +75,9 @@
   }
 }
 
-
-
-
 // ====================================== Section Serviços:
 .servicos {
-  padding: 7rem 0;
+  padding: 10rem 0;
   background: #333;
   color: $color-light;
 
@@ -117,4 +111,9 @@
     color: $color-custom;
     margin-bottom: 1rem;
   }
+}
+
+// ====================================== Section Projetos:
+.projetos {
+  padding: 10rem 0;
 }
