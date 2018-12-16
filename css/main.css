@@ -38,6 +38,16 @@ img {
   margin-top: 1rem;
 }
 
+.bg-custom {
+  background: #E74C3C;
+}
+
+.btn-primary {
+  background: #E74C3C !important;
+  color: #FFF;
+  border: none;
+}
+
 .navbar {
   background: #000;
 }
@@ -191,6 +201,23 @@ img {
   font-size: 2.5rem;
   margin-right: 0.7rem;
   color: #E74C3C;
+}
+
+.contatos {
+  padding: 10rem 0;
+}
+.contatos-box {
+  margin-top: 7rem;
+}
+.contatos label {
+  color: #E74C3C;
+}
+
+footer {
+  text-align: center;
+  background: #000;
+  color: #FFF;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

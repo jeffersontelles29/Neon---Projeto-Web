@@ -27,3 +27,16 @@
   }
 }
 
+// ================= Background Custom:
+.bg-custom {
+  background: $color-custom;
+}
+
+.btn-primary {
+  background: $color-custom !important;
+  color: $color-light;
+  border: none;
+}
+
+
+

@@ -156,3 +156,23 @@
     }
   }
 }
+
+// ====================================== Section Contatos:
+.contatos {
+  padding: 10rem 0;
+  &-box {
+    margin-top: 7rem;
+  }
+
+  label {
+    color: $color-custom;
+  }
+}
+
+// ====================================== Footer:
+footer {
+  text-align: center;
+  background: $color-dark;
+  color: $color-light;
+  padding: 1rem;
+}
