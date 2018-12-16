@@ -162,4 +162,35 @@ img {
   margin-top: 7rem;
 }
 
+.clientes {
+  padding: 10rem 0;
+  background: #333;
+  color: #FFF;
+}
+.clientes-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7rem;
+}
+.clientes-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.clientes-info {
+  margin-left: 1.2rem;
+  font-style: italic;
+}
+.clientes-info cite {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #E74C3C;
+}
+.clientes-info span {
+  font-size: 2.5rem;
+  margin-right: 0.7rem;
+  color: #E74C3C;
+}
+
 /*# sourceMappingURL=main.css.map */
