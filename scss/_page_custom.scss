@@ -93,7 +93,6 @@
     h2::after {
       display: block;
       content: '';
-      // position: absolute;
       width: 6rem;
       height: 2px;
       background: $color-custom;
@@ -116,4 +115,8 @@
 // ====================================== Section Projetos:
 .projetos {
   padding: 10rem 0;
+
+  &-boxes {
+    margin-top: 7rem;
+  }
 }
