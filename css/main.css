@@ -83,7 +83,7 @@ img {
 }
 .header h1 {
   font-family: "Orbitron", sans-serif;
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 .header h2 {
@@ -218,6 +218,112 @@ footer {
   background: #000;
   color: #FFF;
   padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .header h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .sobre {
+    text-align: center;
+  }
+  .sobre .intro h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .sobre .intro h2::after {
+    display: block;
+    content: "";
+    width: 6rem;
+    height: 2px;
+    background: #E74C3C;
+    margin: 4rem auto;
+  }
+  .sobre .animation {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projetos {
+    text-align: center;
+  }
+  .projetos .intro h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .projetos .intro h2::after {
+    display: block;
+    content: "";
+    width: 6rem;
+    height: 2px;
+    background: #E74C3C;
+    margin: 4rem auto;
+  }
+
+  .clientes {
+    text-align: center;
+  }
+  .clientes .intro h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .clientes .intro h2::after {
+    display: block;
+    content: "";
+    width: 6rem;
+    height: 2px;
+    background: #E74C3C;
+    margin: 4rem auto;
+  }
+  .clientes-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contatos {
+    text-align: center;
+  }
+  .contatos .intro h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .contatos .intro h2::after {
+    display: block;
+    content: "";
+    width: 6rem;
+    height: 2px;
+    background: #E74C3C;
+    margin: 4rem auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
